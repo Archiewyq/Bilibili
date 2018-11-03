@@ -7,7 +7,7 @@
 import pymysql
 from datetime import datetime
 
-TABLE_NAME = 'blibli'
+TABLE_NAME = 'bilibili'
 
 class BlibliPipeline(object):
     def __init__(self):

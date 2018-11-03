@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for blibli project
+# Scrapy settings for bilibili project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'blibli'
+BOT_NAME = 'bilibili'
 
-SPIDER_MODULES = ['blibli.spiders']
-NEWSPIDER_MODULE = 'blibli.spiders'
+SPIDER_MODULES = ['bilibili.spiders']
+NEWSPIDER_MODULE = 'bilibili.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'blibli (+http://www.yourdomain.com)'
+#USER_AGENT = 'bilibili (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -48,13 +48,13 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'blibli.middlewares.BlibliSpiderMiddleware': 543,
+#    'bilibili.middlewares.BlibliSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'blibli.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'bilibili.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -66,7 +66,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'blibli.pipelines.BlibliPipeline': 300,
+   'bilibili.pipelines.BlibliPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

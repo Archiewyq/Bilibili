@@ -15,4 +15,4 @@ __author__ = 'wyq19'
 
 from scrapy import cmdline
 
-cmdline.execute('scrapy crawl blibli'.split())
+cmdline.execute('scrapy crawl bilibili'.split())

@@ -14,10 +14,10 @@
 __author__ = 'wyq19'
 import scrapy
 import json
-from blibli.items import BlibliItem
+from bilibili.items import BlibliItem
 
 class MySpider(scrapy.Spider):
-    name = "blibli"
+    name = "bilibili"
     allowed_domains = ["bilibili.com"]
     start_urls = [
         "https://bangumi.bilibili.com/review/web_api/short/list?media_id=102392&folded=0&page_size=30&sort=0",

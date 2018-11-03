@@ -23,7 +23,7 @@ from matplotlib.font_manager import FontProperties
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-datas = pd.read_table(open('blibli.txt', encoding='utf8'))
+datas = pd.read_table(open('bilibili.txt', encoding='utf8'))
 
 del datas['id']
 del datas['time']
